@@ -54,3 +54,12 @@
   font-size: small;
 }
 
+
+@media screen and (max-width:360px) {
+  .foot-icons{
+    height: 2rem;
+  width: 2rem;
+  margin: 0 0.65rem;
+  }
+}
+
