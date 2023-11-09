@@ -2,7 +2,7 @@ import React from "react";
 import "./Intro.css";
 import bg from "../../assets/roshpic.png";
 import downloadicon from "../../assets/download.png";
-// import resume from '../../assets/roshan-CV.pdf'
+import resume from '../../assets/roshan-CV.pdf'
 
 const Intro = () => {
   return (
@@ -18,7 +18,7 @@ const Intro = () => {
           I am a skilled web designer with experience in creating <br/> visually
           appealing and user friendly website.
         </p>
-        <a href={''}  download= 'Roshan-CV'>
+        <a href={resume}  download= 'Roshan-CV'>
           <button className="btn">
             <img src={downloadicon} alt="downloadicon" className="btnImg"/>
             Download CV
