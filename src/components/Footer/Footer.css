@@ -1,0 +1,56 @@
+#footerPage {
+  min-height: calc(100vh - 33rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+
+  background: rgb(40, 40, 40);
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 4rem;
+
+}
+
+.foot-icons {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin: 0 0.75rem;
+}
+
+.footer-content :hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+
+.emailId {
+  width: 100vw;
+
+  background: rgb(40, 40, 40);
+
+  font-size: small;
+}
+
+.footer {
+  width: 100vw;
+  height: 4rem;
+  background: rgb(40, 40, 40);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: small;
+}
+

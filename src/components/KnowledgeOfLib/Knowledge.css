@@ -1,0 +1,76 @@
+#knowledgePage {
+  min-height: calc(100vh - 10rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.knowledgePageTitle {
+  /* font-size: 3rem;
+    margin-bottom: 1rem; */
+
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+}
+
+.knowledgePageTitle2 {
+  color: #fca61f;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.knowledgeDesc {
+  /* font-weight: 300;
+    font-size: 1rem; */
+
+  font-weight: 300;
+  font-size: 0.9rem;
+  max-width: 50rem;
+  padding: 0 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* .knowledgeImgs {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+} */
+.knowledgeImgs :hover {
+  transform: scale(1.08);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.knowledgeImg {
+  object-fit: cover;
+  width: 23%;
+  min-width: 9rem;
+  margin: auto;
+  padding: 0.5rem;
+}
+
+
+
+@media screen and (max-width: 415px) {
+  .knowledgePageTitle {
+    font-size: 2rem;
+  }
+
+  .knowledgePageTitle2 {
+    font-size: 2.2rem;
+  }
+}
+
+/* @media screen and (max-width: 620px) {
+  .knowledgeImgs {
+    display: contents;
+  }
+} */

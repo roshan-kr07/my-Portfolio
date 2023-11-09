@@ -1,0 +1,120 @@
+#contactPage {
+  min-height: calc(100vh  );
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.contactPageTitle {
+  /* font-size: 3rem;
+    margin-bottom: 1rem; */
+
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 4rem;
+}
+
+.contactPageTitle2 {
+  color: #fca61f;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.contactDesc {
+  /* padding: 0.5rem;
+    font-size: medium;
+    font-weight: 300; */
+
+  font-weight: 300;
+  font-size: 0.9rem;
+  max-width: 50rem;
+  padding: 0 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.contactForm {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 60rem;
+}
+
+.name,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(40, 40, 40);
+}
+
+.sendBtn {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  padding: 0.75rem 3rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+.sendBtn:hover {
+  background:  #1a0dab;
+  /* box-shadow: 0 0 5px cyan, 
+  0 0 25px cyan, 0 0 50px cyan; */
+  /* 0 0 100px cyan, 0 0 200px cyan; */
+}
+
+
+.error, .success {
+  /* border: 1px solid; */
+  /* margin: 10px 0px; */
+  /* padding: 15px 10px 15px 50px; */
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+.error{
+  color: #D8000C;
+  background-color: #FFBABA;
+  font-weight: 600;
+  /* background-image: url('https://i.imgur.com/GnyDvKN.png'); */
+}
+
+.success {
+  color: black;
+  background-color: #DFF2BF;
+  font-weight: 600;
+  /* padding: 2px 5px; */
+  border-radius: 8px;
+  /* background-image: url('https://i.imgur.com/Q9BGTuy.png'); */
+}
+
+@media screen and (max-width: 415px) {
+  .contactPageTitle {
+    font-size: 2rem;
+  }
+
+  .contactPageTitle2 {
+    font-size: 2.2rem;
+  }
+
+  #contactPage {
+    min-height: calc(80vh);
+  }
+}
