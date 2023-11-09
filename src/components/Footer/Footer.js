@@ -42,7 +42,7 @@ const Footer = () => {
           <img src={linkedin} alt="linkedin" className="foot-icons " />
         </a>
         <a
-          href="https://github.com/roshan-kr07?tab=repositories"
+          href="https://github.com/roshan-kr07"
           rel="noreferrer"
           target="_blank"
         >
